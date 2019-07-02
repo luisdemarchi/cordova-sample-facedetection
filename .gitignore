@@ -1,0 +1,17 @@
+/.idea
+/platforms
+
+# ignore all files starting with . or ~
+.*
+~*
+
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+# ignore node/grunt dependency directories
+node_modules/
+package-lock.json
+/*/package-lock.json
+/*/node_modules/
