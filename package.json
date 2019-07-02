@@ -1,0 +1,30 @@
+{
+  "name": "br.com.luisdemarchi.appfacedetection",
+  "version": "1.0.0",
+  "displayName": "AppExample",
+  "cordova": {
+    "platforms": [
+      "browser",
+      "ios",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "com.virtuoworks.cordova-plugin-canvascamera": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-facedetection-lite": {}
+    }
+  },
+  "dependencies": {
+    "com.virtuoworks.cordova-plugin-canvascamera": "git+https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
+    "cordova-android": "^8.0.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^5.0.1",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-facedetection-lite": "^0.3.4"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "1"
+  }
+}
